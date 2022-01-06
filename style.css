@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.messages {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    padding: 10px 0;
+    margin-top: 60px;
+}
+
+.messages ul {
+    list-style-type:none;
+}
