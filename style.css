@@ -1,19 +1,54 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid lightgrey;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+nav,
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
 }
 
 .messages {
-    color: #856404;
-    background-color: #fff3cd;
-    border-color: #ffeeba;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: larger;
-    padding: 10px 0;
-    margin-top: 60px;
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: larger;
+  padding: 10px 0;
+  margin-top: 60px;
 }
 
 .messages ul {
-    list-style-type:none;
+  list-style-type: none;
+}
+
+.banner {
+  height: 400px;
+}
+
+.content {
+  display: flex;
+  background-color: white;
+  flex-flow: row wrap;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 0 1 300px;
+  justify-content: stretch;
+  background-color: lightskyblue;
+  padding: 20px;
+  margin: 20px;
+  height: 300px;
 }
